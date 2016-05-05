@@ -30,4 +30,4 @@ latter not to use the global eslint.
 
 ### emacs
 
-Just use LISP instead.
+Just rewrite your linter in LISP instead.
