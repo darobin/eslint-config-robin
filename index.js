@@ -23,6 +23,7 @@ module.exports = {
     'react/jsx-boolean-value': 0,
     'space-before-function-paren': 0,
     'one-var': 0,
+    'quotes': ['error', 'single', { avoidEscape: true, allowTemplateLiterals: true }],
     'comma-style': ['error', 'last', { exceptions: { VariableDeclaration: true } }],
     'no-restricted-syntax': ['error', 'WithStatement']
   }
