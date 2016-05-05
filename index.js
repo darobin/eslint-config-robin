@@ -27,5 +27,6 @@ module.exports = {
     'comma-style': ['error', 'last', { exceptions: { VariableDeclaration: true } }],
     'no-restricted-syntax': ['error', 'WithStatement'],
     'no-use-before-define': 0,
+    'brace-style': 0,
   },
 };
