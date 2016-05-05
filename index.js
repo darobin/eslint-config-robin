@@ -1,11 +1,10 @@
 
 module.exports = {
-  extends: "airbnb",
-  parser: "babel-eslint",
+  extends: 'airbnb',
   env: {
-    "browser": true,
-    "mocha": true,
-    "node": true
+    browser: true,
+    mocha: true,
+    node: true,
   },
   rules: {
     'consistent-return': 0,
@@ -26,6 +25,7 @@ module.exports = {
     'one-var': 0,
     'quotes': ['error', 'single', { avoidEscape: true, allowTemplateLiterals: true }],
     'comma-style': ['error', 'last', { exceptions: { VariableDeclaration: true } }],
-    'no-restricted-syntax': ['error', 'WithStatement']
-  }
+    'no-restricted-syntax': ['error', 'WithStatement'],
+    'no-use-before-define': 0,
+  },
 };
