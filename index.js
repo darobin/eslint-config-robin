@@ -33,5 +33,6 @@ module.exports = {
     'no-use-before-define': 0,
     'brace-style': 0,
     'key-spacing': ['error', { beforeColon: false, afterColon: true, mode: 'minimum' }],
+    'no-multi-space': 0,
   },
 };
