@@ -21,6 +21,7 @@ module.exports = {
     'react/jsx-first-prop-new-line': 0,
     'react/jsx-indent-props': 0,
     'react/jsx-boolean-value': 0,
+    'react/no-multi-comp': 0,
     'space-before-function-paren': 0,
     'one-var': 0,
     quotes: ['error', 'single', { avoidEscape: true, allowTemplateLiterals: true }],
