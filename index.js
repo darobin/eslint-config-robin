@@ -34,5 +34,6 @@ module.exports = {
     'brace-style': 0,
     'key-spacing': ['error', { beforeColon: false, afterColon: true, mode: 'minimum' }],
     'no-multi-spaces': 0,
-  },
+    'comma-dangle': 0
+  }
 };
