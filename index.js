@@ -17,7 +17,7 @@ module.exports = {
     'func-names': 0,
     'no-console': ['warn', { allow: ['error', 'warn'] }],
     'new-cap': 0,
-    'react/jsx-quotes': 0,
+    'jsx-quotes': 0,
     'react/jsx-space-before-closing': 0,
     'react/jsx-first-prop-new-line': 0,
     'react/jsx-indent-props': 0,
