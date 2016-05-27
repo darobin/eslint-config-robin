@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-scienceai",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "JavaScript — FOR SCIENCE!",
   "main": "index.js",
   "scripts": {
