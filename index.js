@@ -24,6 +24,15 @@ module.exports = {
     'react/jsx-indent': 0,
     'react/jsx-boolean-value': 0,
     'react/no-multi-comp': 0,
+    'react/forbid-prop-types': 0,
+    'react/jsx-closing-bracket-location': 0,
+    'react/jsx-curly-spacing': 0,
+    'react/jsx-key': ['error'],
+    'react/no-danger': 0,
+    'react/no-direct-mutation-state': ['error'],
+    'react/sort-comp': 0,
+    'react/jsx-no-target-blank': 0,
+    'react/jsx-filename-extension': 0,
     'space-before-function-paren': 0,
     'one-var': 0,
     // in practice, people indent responsibly - this rule is too inflexible for many justified cases
@@ -35,6 +44,10 @@ module.exports = {
     'brace-style': 0,
     'key-spacing': ['error', { beforeColon: false, afterColon: true, mode: 'minimum' }],
     'no-multi-spaces': 0,
-    'comma-dangle': 0
+    'comma-dangle': 0,
+    'no-confusing-arrow': 0,
+    'template-curly-spacing': 0,
+    'no-plusplus': 0,
+    'jsx-a11y/img-redundant-alt': 0,
   }
 };
