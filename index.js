@@ -10,6 +10,7 @@ module.exports = {
     'consistent-return': 0,
     'no-param-reassign': 0,
     'no-underscore-dangle': 0,
+    'no-constant-condition': ['error', { checkLoops: false }],
     'no-shadow': ['error', { allow: ['err', 'error', 'res', 'resp', 'body'] }],
     'no-cond-assign': ['error', 'except-parens'],
     'prefer-const': 0,
