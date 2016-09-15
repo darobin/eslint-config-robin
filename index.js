@@ -12,6 +12,7 @@ module.exports = {
     'no-underscore-dangle': 0,
     'no-constant-condition': ['error', { checkLoops: false }],
     'no-shadow': ['error', { allow: ['err', 'error', 'res', 'resp', 'body'] }],
+    'no-bitwise': ['error', { allow: ['~'] }],
     'no-cond-assign': ['error', 'except-parens'],
     'prefer-const': 0,
     'prefer-template': 0,
