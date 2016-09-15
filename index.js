@@ -10,6 +10,7 @@ module.exports = {
     'arrow-parens': 0,
     'consistent-return': 0,
     'no-param-reassign': 0,
+    'no-continue': 0,
     'no-underscore-dangle': 0,
     'no-constant-condition': ['error', { checkLoops: false }],
     'no-shadow': ['error', { allow: ['err', 'error', 'res', 'resp', 'body'] }],
