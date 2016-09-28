@@ -12,6 +12,8 @@ module.exports = {
     'no-param-reassign': 0,
     'no-continue': 0,
     'no-underscore-dangle': 0,
+    'prefer-spread': 0,
+    'class-methods-use-this': 0,
     'no-constant-condition': ['error', { checkLoops: false }],
     'no-shadow': ['error', { allow: ['err', 'error', 'res', 'resp', 'body'] }],
     'no-bitwise': ['error', { allow: ['~'] }],
