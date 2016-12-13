@@ -11,6 +11,7 @@ module.exports = {
     'consistent-return': 0,
     'no-param-reassign': 0,
     'no-continue': 0,
+    'no-return-assign': 0,
     'no-underscore-dangle': 0,
     'prefer-spread': 0,
     'class-methods-use-this': 0,
