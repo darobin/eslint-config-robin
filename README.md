@@ -3,8 +3,8 @@
 
 JavaScript — FOR SCIENCE!
 
-These are the rules that are in common use in science.ai projects. They are derived from the airbnb
-ruleset, but with a number of requirements relaxed because we're pretty relaxed people.
+These are the rules that are in common use in science.ai projects. Note that we
+use [prettier](https://github.com/prettier/prettier) for style.
 
 ## Usage
 
@@ -30,4 +30,4 @@ latter not to use the global eslint.
 
 ### emacs
 
-Just rewrite your linter in LISP instead.
+An example can be found at https://github.com/sballesteros/dot-emacs
