@@ -21,23 +21,13 @@ module.exports = {
   },
   rules: {
     'no-console': ['warn', { allow: ['error', 'warn'] }],
-    'no-unused-vars': [
-      'error',
-      {
-        args: 'none'
-      }
-    ],
-    'one-var': [
-      'error',
-      {
-        initialized: 'never'
-      }
-    ],
-    'no-empty': [
-      'error',
-      {
-        allowEmptyCatch: true
-      }
-    ]
+    'no-unused-vars': ['error', { args: 'none' }],
+    'one-var': ['error', { initialized: 'never' }],
+    'no-empty': ['error', { allowEmptyCatch: true }],
+    'no-constant-condition': ['error', { checkLoops: false }],
+    'no-bitwise': ['error', { allow: ['~'] }],
+    'no-cond-assign': ['error', 'except-parens'],
+    'no-restricted-syntax': ['error', 'WithStatement'],
+    'jsx-a11y/img-redundant-alt': 0
   }
 };
