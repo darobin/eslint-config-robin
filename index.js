@@ -22,7 +22,6 @@ module.exports = {
   rules: {
     'no-console': ['warn', { allow: ['error', 'warn'] }],
     'no-unused-vars': ['error', { args: 'none' }],
-    'one-var': ['error', { initialized: 'never' }],
     'no-empty': ['error', { allowEmptyCatch: true }],
     'no-constant-condition': ['error', { checkLoops: false }],
     'no-bitwise': ['error', { allow: ['~'] }],
