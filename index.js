@@ -23,7 +23,7 @@ module.exports = {
   },
   rules: {
     'no-console': ['warn', { allow: ['error', 'warn'] }],
-    'no-unused-vars': ['error', { args: 'none' }],
+    'no-unused-vars': ['error', { args: 'none', ignoreRestSiblings: true }],
     'no-empty': ['error', { allowEmptyCatch: true }],
     'no-constant-condition': ['error', { checkLoops: false }],
     'no-bitwise': ['error', { allow: ['~'] }],
