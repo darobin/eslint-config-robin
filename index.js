@@ -1,9 +1,13 @@
 module.exports = {
-  plugins: ['react', 'jsx-a11y', 'import'],
+  plugins: [
+    'react',
+    // 'jsx-a11y',
+    'import'
+  ],
   extends: [
     'eslint:recommended',
     'plugin:react/recommended',
-    'plugin:jsx-a11y/recommended',
+    //'plugin:jsx-a11y/recommended',
     'plugin:import/errors',
     'plugin:import/warnings'
   ],
@@ -28,7 +32,7 @@ module.exports = {
     'no-constant-condition': ['error', { checkLoops: false }],
     'no-bitwise': ['error', { allow: ['~'] }],
     'no-cond-assign': ['error', 'except-parens'],
-    'no-restricted-syntax': ['error', 'WithStatement'],
-    'jsx-a11y/img-redundant-alt': 0
+    'no-restricted-syntax': ['error', 'WithStatement']
+    //'jsx-a11y/img-redundant-alt': 0
   }
 };
