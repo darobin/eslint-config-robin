@@ -26,7 +26,7 @@ module.exports = {
     }
   },
   rules: {
-    'no-console': ['warn', { allow: ['error', 'warn'] }],
+    'no-console': ['warn', { allow: ['error', 'warn', 'trace'] }],
     'no-unused-vars': ['error', { args: 'none', ignoreRestSiblings: true }],
     'no-empty': ['error', { allowEmptyCatch: true }],
     'no-constant-condition': ['error', { checkLoops: false }],
