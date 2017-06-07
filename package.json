@@ -1,28 +1,30 @@
 {
-  "name": "eslint-config-scienceai",
+  "name": "eslint-config-robin",
   "version": "2.6.0",
-  "description": "JavaScript — FOR SCIENCE!",
+  "description": "JavaScript, looking good",
   "main": "index.js",
   "scripts": {
     "test": "node -c index.js"
   },
+  "eslintConfig": {
+    "extends": "./index.js"
+  },
   "repository": {
     "type": "git",
-    "url": "https://github.com/scienceai/eslint-config-scienceai"
+    "url": "https://github.com/darobin/eslint-config-robin"
   },
   "keywords": [
     "eslint",
     "eslintconfig",
     "config",
-    "scienceai",
     "javascript"
   ],
   "author": "Robin Berjon <robin@berjon.com>",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/scienceai/eslint-config-scienceai/issues"
+    "url": "https://github.com/darobin/eslint-config-robin/issues"
   },
-  "homepage": "https://github.com/scienceai/eslint-config-scienceai",
+  "homepage": "https://github.com/robin/eslint-config-robin",
   "dependencies": {
     "eslint": "3.6.1",
     "eslint-config-airbnb": "12.0.0",
