@@ -17,7 +17,7 @@ module.exports = {
     'prefer-spread': 0,
     'class-methods-use-this': 0,
     'no-constant-condition': ['error', { checkLoops: false }],
-    'no-shadow': ['error', { allow: ['err', 'error', 'res', 'resp', 'body'] }],
+    'no-shadow': ['error', { allow: ['err', 'error', 'res', 'resp', 'body', 'h'] }],
     'no-bitwise': ['error', { allow: ['~'] }],
     'no-cond-assign': ['error', 'except-parens'],
     'prefer-const': 0,
