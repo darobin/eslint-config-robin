@@ -17,7 +17,8 @@ module.exports = {
     'prefer-spread': 0,
     'class-methods-use-this': 0,
     'no-constant-condition': ['error', { checkLoops: false }],
-    'no-shadow': ['error', { allow: ['err', 'error', 'res', 'resp', 'body', 'h'] }],
+    'no-shadow': ['error', { allow: ['err', 'error', 'res', 'resp', 'body'] }],
+    'no-unused-vars': ['error', { varsIgnorePattern: "(^h$)" }],
     'no-bitwise': ['error', { allow: ['~'] }],
     'no-cond-assign': ['error', 'except-parens'],
     'prefer-const': 0,
@@ -57,6 +58,6 @@ module.exports = {
     'template-curly-spacing': 0,
     'no-plusplus': 0,
     'jsx-a11y/img-redundant-alt': 0,
-    'import/no-extraneous-dependencies': ['error', { devDependencies: ['test/**', 'client/**'] }],
+    'import/no-extraneous-dependencies': ['error', { devDependencies: ['**/test/**/*.js', '**/client/**/*.js'] }],
   }
 };
