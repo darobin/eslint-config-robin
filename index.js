@@ -57,5 +57,6 @@ module.exports = {
     'template-curly-spacing': 0,
     'no-plusplus': 0,
     'jsx-a11y/img-redundant-alt': 0,
+    'import/no-extraneous-dependencies': ['error', { devDependencies: ['test/**', 'client/**'] }],
   }
 };
