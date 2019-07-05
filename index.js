@@ -18,7 +18,7 @@ module.exports = {
     'class-methods-use-this': 0,
     'no-constant-condition': ['error', { checkLoops: false }],
     'no-shadow': ['error', { allow: ['err', 'error', 'res', 'resp', 'body'] }],
-    'no-unused-vars': ['error', { varsIgnorePattern: "(^h$)" }],
+    'no-unused-vars': ['error', { varsIgnorePattern: '(^h$)' }],
     'no-bitwise': ['error', { allow: ['~'] }],
     'no-cond-assign': ['error', 'except-parens'],
     'prefer-const': 0,
