@@ -1,7 +1,8 @@
 
 # eslint-config-robin
 
-These are the rules that are used in my ([Robin Berjon](http://berjon.com/)) projects.
+These are the rules that are used in my ([Robin Berjon](http://berjon.com/)) projects. A lot of this
+has been lifted from the AirBnB rules, but with distinctive variations.
 
 ## Usage
 
