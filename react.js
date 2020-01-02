@@ -3,6 +3,7 @@ module.exports = {
   plugins: [
     'react',
   ],
+  ignorePatterns: ['*.html', '*.svelte'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,

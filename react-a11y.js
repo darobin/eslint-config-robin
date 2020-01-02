@@ -3,6 +3,7 @@ module.exports = {
     'jsx-a11y',
     'react',
   ],
+  ignorePatterns: ['*.html', '*.svelte'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
