@@ -1,6 +1,5 @@
 
-let confusingBrowserGlobals = require('confusing-browser-globals')
-;
+let confusingBrowserGlobals = require('confusing-browser-globals');
 
 module.exports = {
   extends: [
@@ -138,10 +137,10 @@ module.exports = {
     'nonblock-statement-body-position': ['error', 'beside', { overrides: {} }],
     'object-curly-spacing': ['error', 'always'],
     'object-curly-newline': ['error', {
-      ObjectExpression: { minProperties: 4, multiline: true, consistent: true },
+      ObjectExpression: { minProperties: 40, multiline: true, consistent: true },
       ObjectPattern: { minProperties: 4, multiline: true, consistent: true },
-      ImportDeclaration: { minProperties: 4, multiline: true, consistent: true },
-      ExportDeclaration: { minProperties: 4, multiline: true, consistent: true },
+      ImportDeclaration: { minProperties: 40, multiline: true, consistent: true },
+      ExportDeclaration: { minProperties: 40, multiline: true, consistent: true },
     }],
     'object-property-newline': ['error', {
       allowAllPropertiesOnSameLine: true,
