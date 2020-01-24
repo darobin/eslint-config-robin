@@ -68,7 +68,7 @@ module.exports = {
       applyDefaultPatterns: true,
     }],
     'linebreak-style': ['error', 'unix'],
-    'lines-between-class-members': ['error', 'always', { exceptAfterSingleLine: false }],
+    'lines-between-class-members': 'off',
     'lines-around-comment': 'off',
     'lines-around-directive': ['error', {
       before: 'always',
