@@ -279,7 +279,7 @@ module.exports = {
     'dot-location': ['error', 'property'],
     eqeqeq: ['error', 'always', { null: 'ignore' }],
     'guard-for-in': 'error',
-    'max-classes-per-file': ['error', 1],
+    'max-classes-per-file': 'off',
     'no-alert': 'warn',
     'no-caller': 'error',
     'no-case-declarations': 'error',
