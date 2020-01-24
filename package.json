@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-robin",
-  "version": "6.1.1",
+  "version": "6.1.2",
   "description": "JavaScript, looking good",
   "main": "index.js",
   "scripts": {
