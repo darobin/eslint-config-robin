@@ -36,7 +36,7 @@ module.exports = {
     'react/forbid-dom-props': ['off', { forbid: [] }],
     'react/jsx-boolean-value': 0,
     'react/jsx-closing-bracket-location': 0,
-    'react/jsx-closing-tag-location': 'error',
+    'react/jsx-closing-tag-location': 0,
     'react/jsx-curly-spacing': 0,
     'react/jsx-handler-names': ['off', {
       eventHandlerPrefix: 'handle',
@@ -44,7 +44,7 @@ module.exports = {
     }],
     'react/jsx-indent-props': 0,
     'react/jsx-key': ['error'],
-    'react/jsx-max-props-per-line': ['error', { maximum: 1, when: 'multiline' }],
+    'react/jsx-max-props-per-line': 0,
     'react/jsx-no-bind': ['error', {
       ignoreRefs: true,
       allowArrowFunctions: true,
@@ -101,15 +101,7 @@ module.exports = {
     'react/require-render-return': 'error',
     'react/self-closing-comp': 'error',
     'react/sort-comp': 0,
-    'react/jsx-wrap-multilines': ['error', {
-      declaration: 'parens-new-line',
-      assignment: 'parens-new-line',
-      return: 'parens-new-line',
-      arrow: 'parens-new-line',
-      condition: 'parens-new-line',
-      logical: 'parens-new-line',
-      prop: 'parens-new-line',
-    }],
+    'react/jsx-wrap-multilines': 0,
     'react/jsx-first-prop-new-line': 0,
     'react/jsx-equals-spacing': ['error', 'never'],
     'react/jsx-indent': 0,
@@ -153,7 +145,7 @@ module.exports = {
     }],
     'react/no-typos': 'error',
     'react/jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }],
-    'react/destructuring-assignment': ['error', 'always'],
+    'react/destructuring-assignment': 0,
     'react/no-access-state-in-setstate': 'error',
     'react/button-has-type': ['error', {
       button: true,
@@ -172,11 +164,7 @@ module.exports = {
     }],
     'react/state-in-constructor': ['error', 'always'],
     'react/static-property-placement': ['error', 'property assignment'],
-    'react/jsx-props-no-spreading': ['error', {
-      html: 'enforce',
-      custom: 'enforce',
-      exceptions: [],
-    }],
+    'react/jsx-props-no-spreading': 0,
     'react/prefer-read-only-props': 'off',
   },
   settings: {

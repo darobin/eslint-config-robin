@@ -147,7 +147,7 @@ module.exports = {
     }],
     'one-var-declaration-per-line': ['error', 'always'],
     'operator-assignment': ['error', 'always'],
-    'operator-linebreak': ['error', 'before', { overrides: { '=': 'none' } }],
+    'operator-linebreak': 0,
     'padded-blocks': ['error', {
       blocks: 'never',
       classes: 'never',
