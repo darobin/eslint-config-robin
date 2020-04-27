@@ -132,7 +132,7 @@ module.exports = {
     'react/no-children-prop': 'error',
     'react/jsx-tag-spacing': ['error', {
       closingSlash: 'never',
-      beforeSelfClosing: 'always',
+      beforeSelfClosing: 'allow',
       afterOpening: 'never',
       beforeClosing: 'never',
     }],
@@ -153,7 +153,6 @@ module.exports = {
     }],
     'react/no-typos': 'error',
     'react/jsx-curly-brace-presence': ['error', { props: 'never', children: 'never' }],
-    'react/jsx-one-expression-per-line': ['error', { allow: 'single-child' }],
     'react/destructuring-assignment': ['error', 'always'],
     'react/no-access-state-in-setstate': 'error',
     'react/button-has-type': ['error', {
